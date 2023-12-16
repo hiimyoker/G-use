@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* Reset default styles */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page layout */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  /* setting header */
+  .header-container {
+    background-color: #00ff7f;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  h1.TopHeaderTitle {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  h1.isLogin {
+    font-size: 14px;
+    text-align: right;
+  }
+  /* setting searching bar */
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+  #search-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+   
+  #search-button {
+    padding: 10px 20px;
+    background-color: #00ff7f;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   /* ここからchat.jsp */
+
+  /* 出品物表示 */
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .thumnail-right-box {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .thumnail-right-box li {
+    flex-basis: 20%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .image-name {
+    margin-top: 5px;
+  }
+  
+   /* チャットコンテナのスタイル */
+    .chat-container {
+      width: 250px;
+      height: 350px;
+      border: 1px solid #ccc;
+      overflow: auto;
+      position: relative;
+      top: -500px;
+      left: 1000px;
+    }
+
+    /* メッセージ表示エリアのスタイル */
+    .message-area {
+      padding: 10px;
+
+    }
+
+    /* 入力エリアのスタイル */
+    .input-area {
+      padding: 10px;
+      position: relative;
+      top: -500px;
+      left: 1000px;
+    }
+
+    /* 送信ボタンのスタイル */
+    .send-button {
+      padding: 5px 10px;
+      position: relative;
+      
+      left: 10px;
+    }
+
+    .stop-button {
+      background-color: red;
+      color: rgb(15, 14, 14);
+      padding: 20px 20px;
+      position: relative;
+      top: -470px;
+      left: 1000px;
+    }
+
+    .end-button {
+      background-color: rgb(30, 255, 0);
+      color: rgb(15, 14, 14);
+      padding: 20px 50px;
+      position: relative;
+      top: -470px;
+      left: 1020px;
+    }
+   /* ここからevaluation.jsp */
+   .hyoukatxt{
+        margin-top: 5px;
+        position: relative;
+      top: -470px;
+      left: 1000px;
+    }
+
+    .rating-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .pointdropdown {
+        padding: 10px 10px;
+        position: relative;
+      top: -250px;
+      left: 1000px;
+    }
+
+
+    .rating-label {
+      margin-top: 5px;
+      position: relative;
+      top: -250px;
+      left: 1000px;
+    }
+
+    .comenttextbox {
+        padding: 50px 50px;
+        position: relative;
+      top: -250px;
+      left: 1000px;
+    }
+
+    .final-button {
+      background-color: rgb(30, 255, 0);
+      color: rgb(15, 14, 14);
+      padding: 20px 105px;
+      position: relative;
+      top: -280px;
+      left: 1001px;
+    }
+
+    /* ここからmypage.jsp */
+
+    .hikitoritxt {
+      padding: 50px 50px;
+      position: relative;
+    top: -50px;
+    
+  }
+
+  .hikitori {
+    position: absolute;
+    top: 300px;
+   left: 100px;
+  
+}
+
+  .syuppinntxt {
+    padding: 50px 50px;
+    position: relative;
+  top: 70px;
+  
+}
+
+.syuppinn {
+  position: absolute;
+  top: 570px;
+ left: 100px;
+}

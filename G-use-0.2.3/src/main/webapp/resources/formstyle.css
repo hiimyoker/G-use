@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* Reset default styles */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page layout */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  /* setting header */
+  .header-container {
+    background-color: #00ff7f;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  h1.TopHeaderTitle {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  h1.isLogin {
+    font-size: 14px;
+    text-align: right;
+  }
+
+  
+  /* setting searching bar */
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+  #search-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+   
+  #search-button {
+    padding: 10px 20px;
+    background-color: #00ff7f;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  /* 出品物表示 */
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .thumnail-right-box {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .thumnail-right-box li {
+    flex-basis: 20%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .image-name {
+    margin-top: 5px;
+  }
+  
+  /* 出品登録フォーム */
+  .form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .column1 {
+    grid-column: 1;
+  }
+  
+  .column2 {
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    grid-column: span 2;
+    width: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro {
+    margin-top: 10px;
+  }
+  
+  .intro label {
+    display: block;
+  }
+  
+  .intro input[type="text"] {
+    width: 200%;
+    padding: 5px;
+    margin-top: 5px;
+    height: 100px; 
+    resize: vertical; 
+  }
+  
